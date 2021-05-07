@@ -15,3 +15,32 @@ body
     width: 100%;
     margin: 0 auto;
 }
+
+
+
+/* button */
+.button
+{
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.button a
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* header */
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
