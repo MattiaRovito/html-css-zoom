@@ -106,39 +106,50 @@ footer
 {
     font-size: 26px;
     padding: 4px 15px;
-    color: white;
 }
 
-.row
+.row, .col-sx, .col-center, .col-dx
 {
     display: flex;
+    align-items: center;
 }
 
-.col-sx
-{
-    display: flex;
+
+.col-sx, .col-dx
+{ 
     flex-grow: 0;
 }
 
 .col-center
-{
-    display: flex;
+{  
     flex-grow: 1;
     justify-content: center;
 }
 
 .col-dx
 {
-    display: flex;
-    flex-grow: 0;
     justify-content: flex-end;
 }
 
 
 .arrow
 {
-    color: white;
-    line-height: 60px;
     font-size: 10px;
     margin: 0 10px;
+}
+
+.share-green a
+{
+    font-size: 26px;
+    padding: 4px 15px;
+    color: green;
+}
+
+
+.col-dx .end a
+{
+    color: red;
+    background: rgba(255, 255, 255, 0.3);
+    height: 50px;
+    padding: 10px;
 }
