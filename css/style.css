@@ -98,14 +98,17 @@ footer
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 53px;
 }
 
 
-.icon
+.icon, .share-green a
 {
     font-size: 26px;
     padding: 4px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .row, .col-sx, .col-center, .col-dx
@@ -140,8 +143,6 @@ footer
 
 .share-green a
 {
-    font-size: 26px;
-    padding: 4px 15px;
     color: green;
 }
 
@@ -152,4 +153,15 @@ footer
     background: rgba(255, 255, 255, 0.3);
     height: 50px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.text
+{
+    color: white;
+    font-size: 14px;
 }
